@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1013px;
+    height: 128px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    padding: 16px;
+}
+
+.navbar {
+    width: 1013px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    width: 327px;
+    height: 64px;
+    padding: 16px;
+    gap: 8px;
+    color: #BFC8E6;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+}
+
+.searchbox i {
+    color: black;
+}
+
+.searchbox input {
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+}
+
+.nav-bar-section {
+    width: 534px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.nav-bar-section-span {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 56px;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.nav-bar-section-span:hover {
+    background-color: #849FFF;
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1013px;
+    height: 432px;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding: 0px;
+    gap: 16px;
+}
+
+.user {
+    background-color: #FBFCFF;
+    width: 327px;
+    height: 208px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    transition: 0.2s;
+    border-radius: 7%;
+}
+
+.user:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.user-profile {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.user-no-pic {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;  
+}
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px;
+    gap: 4px;
+    width: 160px;
+    height: 68px;
+
+}
+
+.user-name {
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 2px;
+    font-family: 'Merriweather';
+    width: 160px;
+    height: 23px;
+    font-size: 17px;
+}
+
+.user-address {
+    color:black;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 2px;
+    font-family: 'Poppins';
+    width: 160px;
+    height: 21px;
+    font-size: 15px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 160px;
+    height: 50px;
+}
+
+.hobbies-tag {
+    display: flex;
+    align-items: center;
+    color: #849FFF;
+    border: 1px solid #849FFF;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: 'Poppins';
+    width: fit-content;
+    height: 22px;
+    font-size: 11px;
+}
